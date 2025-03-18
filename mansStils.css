@@ -1,0 +1,151 @@
+header {
+
+    color: #22223b
+
+}
+ 
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2e9e4;
+
+    color: white;
+
+    text-align: center;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+ 
+nav ul {
+
+    list-style-type: none;
+
+    background: #22223b;
+
+    padding: 10px;
+
+    margin: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+ 
+nav ul li {
+
+    position: relative;
+
+    margin: 0 15px;
+
+}
+ 
+nav ul li a {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    padding: 10px;
+
+    display: block;
+
+}
+ 
+nav ul li a:hover {
+
+  background: #9a8c98;
+
+}
+
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+    background: #4a4e69;
+
+    min-width: 160px;
+
+    z-index: 1;
+
+}
+ 
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+ 
+.dropdown-content li {
+
+    display: block;
+
+    text-align: left;
+
+}
+ 
+section {
+
+    margin: 50px;
+
+    padding: 20px;
+
+    background: #c9ada7;
+
+    border-radius: 10px;
+
+}
+ 
+.active {
+
+  background: #c9ada7
+
+}
+ 
+.kajene {
+
+    position: fixed;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+    background-color: #e3d6cf;
+
+    color: #0f2322;
+
+    text-align: center;
+
+}
+
+.rastgr img {
+    
+  width: 70%;
+
+}
+
+.vektorgr img {
+    width: 30%;
+}
+
+.teksts img {
+    width: 60%;
+}
+
+.video video{
+    width: 30%
+}
+
+.izklajl img{
+    width: 60%
+}
