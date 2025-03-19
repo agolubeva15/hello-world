@@ -25,13 +25,43 @@
         <hr>
         <div>Rezultāts<input name="rez"> </div>
     </form>
+    
+    <br/>
+    <br/>
+    
+    <form>
+        <div>1.skaitlis<input type="text" name="sk1" id="sk1"> </div>
+        <div>
+            <input value="÷" name="dali" onclick="rez.value = sk1.value / sk2.value" type="button">
+        </div>
+        <div>2.skaitlis <input type="text" name="sk2" id="sk2"> </div>
+        <hr>
+        <div>Rezultāts <input name="rez" id="rez" readonly> </div>
+    </form>
+    
+    <br/>
+    <br/>
+    
+    <form>
+        <div>1.skaitlis <input type="text" name="sk1" id="sk1"> </div>
+        <div>
+            <input value="+" name="saskaiti" onclick="rez.value = sk1.value - - sk2.value" type="button">
+        </div>
+        <div>2.skaitlis <input type="text" name="sk2" id="sk2"> </div>
+        <hr>
+        <div>Rezultāts <input name="rez" id="rez" readonly> </div>
+    </form>
+    
+    <br/>
+    <br/>
+    
     <form>
         <div>1.skaitlis <input type="text" name="sk1" id="sk1"></div>
         <div>
-            <input value="÷" name="dali" onclick="rezultats.value = sk1.value / sk2.value" type="button">
+            <input value="-" name="saskaiti" onclick="rez.value = sk1.value - sk2.value" type="button">
         </div>
         <div>2.skaitlis <input type="text" name="sk2" id="sk2"></div>
         <hr>
-        <div>Rezultāts <input name="rezultats" id="rezultats" readonly></div>
+        <div>Rezultāts <input name="rez" id="rez" readonly></div>
     </form>
 </html>
