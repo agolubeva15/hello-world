@@ -1,105 +1,105 @@
 <!DOCTYPE html>
 <html lang="lv">
-    
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anastasijas portfolio</title>
-    <link rel="stylesheet" href="CSS/mansStils.css" />
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a class="active" href="index.html">Sākums</a></li>
-            <li><a href="#teksts">Tekstapstrāde</a></li>
-            <li class="dropdown">
-                <a href="#">Attēlu apstrāde</a>
-                <ul class="dropdown-content">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Anastasijas portfolio</title>
+        <link rel="stylesheet" href="CSS/mansStils.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Sākums</a></li>
+                <li><a href="#teksts">Tekstapstrāde</a></li>
+                <li class="dropdown">
+                    <a href="#">Attēlu apstrāde</a>
+                    <ul class="dropdown-content">
                         <li><a href="#rastgr">Rastrgrafika</a></li>
                         <li><a href="#vektorgr">Vektorgrafika</a></li>
-                </ul>
-            </li>
-            <li><a href="#3d">3D modelēšana</a></li>
-            <li><a href="#video">Video</a></li>
-            <li><a href="#izklajl">Izklājlapas</a></li>
-            <li><a href="otrais.html">Individuālā tēma</a></li>
-        </ul>
-    </nav>
- 
-    <br />
-    
-    <header>
-        <h1>Anastasijas portfolio</h1>
-        <h2>datorikā 2024./2025. m. g.</h2>
-    </header>
-    
-    <section class="teksts" id="teksts">
-        <h2>Tekstapstrāde</h2>
-        <p>Šeit būs informācija par vektorgrafiku.</p>
-        <br/>
-        <img src="images/word.PNG" alt="Word"/>
-    </section>
-    
-    <section class="rastgr" id="rastgr">
-        <h2>Rastgrafika</h2>
-        <p>Protu veidot attēlu no vairākiem slāņiem, izmantot animāciju filtru, eksportēt attēlu kā animētu gif datni.</p>
-        <br/>
-        <img src="images/baneris.gif" alt="Gif animācija"/>
-    </section>
-    
-    <section class="vektorgr" id="vektorgr">
-        <h2>Vektorgrafika</h2>
-        <p>Šeit būs informācija par vektorgrafiku.</p>
-        <img src="images/varis.svg" alt="Logotips"/>
-    </section>
-    
-    <section class="3d" id="3d">
-        <h2>3D modelēšana</h2>
-        <p>Šeit būs informācija par video.</p>
-        <img src="images/3dmodelis.PNG" alt="3D modelis"/>
-    </section>
-    
-    <section class="video" id="video">
-        <h2>Video</h2>
-        <p>Šeit būs informācija par video.</p>
-        <video controls>
-            <source src="images/Degreez.mp4" type="video/mp4">
-        </video>
-    </section>
-    
-    <section class="izklajl" id="izklajl">
-        <h2>Izklājlapas</h2>
-        <p>Šeit būs informācija par izklājlapām.</p>
-        <img src="images/excel.PNG" alt="Excel"/>
-    </section>
-    
-    <br />
+                    </ul>
+                </li>
+                <li><a href="#modelis">3D modelēšana</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#izklajl">Izklājlapas</a></li>
+                <li><a href="otrais.html">Individuālā tēma</a></li>
+            </ul>
+        </nav>
 
-<button onclick="topFunction()" id="backToTop" title="Atgriezties uz augšu">↑</button>
+        <br />
 
-<script>
+        <header>
+            <h1>Anastasijas portfolio</h1>
+            <h2>datorikā 2024./2025. m. g.</h2>
+        </header>
 
-    var mybutton = document.getElementById("backToTop");
+        <section class="teksts" id="teksts">
+            <h2>Tekstapstrāde</h2>
+            <p>Protu lietot atsauču lentas rīkus, veikt automātisko pareizrakstības pārbaudi un izmantot pasta sapludināšanu vairāku līdzīgu dokumentu izveidei.</p>
+            <br/>
+            <img src="images/word.PNG" alt="Word"/>
+        </section>
 
-    window.onscroll = function() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } 
-        else {
-            mybutton.style.display = "none";
-        }
-};
+        <section class="rastgr" id="rastgr">
+            <h2>Rastgrafika</h2>
+            <p>Protu veidot attēlu no vairākiem slāņiem, izmantot animāciju filtru, eksportēt attēlu kā animētu gif datni.</p>
+            <br/>
+            <img src="images/baneris.gif" alt="Gif animācija"/>
+        </section>
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
+        <section class="vektorgr" id="vektorgr">
+            <h2>Vektorgrafika</h2>
+            <p>Protu izmantot vektorgrafikas rīkus, lai izveidotu uzņēmuma logo, plakātu pasākumam vai zinātniskai konferencei.</p>
+            <img src="images/varis.svg" alt="Logotips"/>
+        </section>
 
-</body>
+        <section class="modelis" id="modelis">
+            <h2>3D modelēšana</h2>
+            <p>Protu veidot 3D modeļus no pamatformām, tās apvienojot vai šķeļot, kā arī eksportēt un importēt modeļa datus. Zinu, kā aizpildījums, novietojums un pamatne ietekmē izdrukātā objekta kvalitāti.</p>
+            <img src="images/3dmodelis.PNG" alt="3D modelis"/>
+        </section>
 
-<div class="kajene">
-    <p>Anastasija Golubeva 10.e</p>
-</div>
+        <section class="video" id="video">
+            <h2>Video</h2>
+            <p>Protu veidot video, rediģējot un apvienojot grafiskās un audio datnes, pievienojot titrus un efektus, kā arī renderējot gala produktu.</p>
+            <video controls>
+                <source src="images/Degreez.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section class="izklajl" id="izklajl">
+            <h2>Izklājlapas</h2>
+            <p>Protu ievadīt šūnās datus, ātri aizpildīt tās ar datumiem, formulām un skaitļiem. Lietoju aritmētiskās darbības, funkcijas un iekavas, lai veidotu formulas. Protu izveidot un rediģēt dažādas diagrammas, pievienojot vai dzēšot to elementus.</p>
+            <img src="images/excel.PNG" alt="Excel"/>
+        </section>
+
+        <br />
+
+        <button onclick="topFunction()" id="backToTop" title="Atgriezties uz augšu">↑</button>
+
+        <script>
+
+            var mybutton = document.getElementById("backToTop");
+
+            window.onscroll = function () {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            };
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+    </body>
+
+    <div class="kajene">
+        <p>Anastasija Golubeva 10.e</p>
+    </div>
 
 </html>

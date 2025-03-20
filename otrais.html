@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="lv">
-    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Individuālā tēma</title>
-    <link rel="stylesheet" href="CSS/mansStils.css" />
-</head>
 
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Sākums</a></li>
-            <li><a href="index.html#teksts">Tekstapstrāde</a></li>
-            <li class="dropdown">
-            <a href="index.html#">Attēlu apstrāde</a>
-                <ul class="dropdown-content">
-                    <li><a href="index.html#rastgr">Rastrgrafika</a></li>
-                    <li><a href="index.html#vektorgr">Vektorgrafika</a></li>
-                </ul>
-            </li>
-            <li><a href="index.html#3d">3D modelēšana</a></li>
-            <li><a href="index.html#video">Video</a></li>
-            <li><a href="index.html#izklajl">Izklājlapas</a></li>
-            <li><a class="active"  href="#tema" >Individuālā tēma</a></li>
-        </ul>
-    </nav>
-    
-    <section id="tema">
-        <h2>Divfaktoru autentifikācija</h2>
-        <p>Divfaktoru autentifikācija (2FA) nodrošina papildu drošību tiešsaistes kontos, pieprasot gan paroli, gan papildu kodu no telefona vai e-pasta. Tas samazina risku no hakeriem un datu zādzības, kā arī aizsargā tavu privātumu tiešsaistē. Aktivizē 2FA, lai paliktu drošībā.</p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Individuālā tēma</title>
+        <link rel="stylesheet" href="CSS/mansStils.css" />
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sākums</a></li>
+                <li><a href="index.html#teksts">Tekstapstrāde</a></li>
+                <li class="dropdown">
+                    <a href="index.html#">Attēlu apstrāde</a>
+                    <ul class="dropdown-content">
+                        <li><a href="index.html#rastgr">Rastrgrafika</a></li>
+                        <li><a href="index.html#vektorgr">Vektorgrafika</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#modelis">3D modelēšana</a></li>
+                <li><a href="index.html#video">Video</a></li>
+                <li><a href="index.html#izklajl">Izklājlapas</a></li>
+                <li><a class="active"  href="#tema" >Individuālā tēma</a></li>
+            </ul>
+        </nav>
+
+        <section id="tema" class="tema">
+            <h2>Divfaktoru autentifikācija</h2>
+            <p>Divfaktoru autentifikācija (2FA) nodrošina papildu drošību tiešsaistes kontos, pieprasot gan paroli, gan papildu kodu no telefona vai e-pasta. Tas samazina risku no hakeriem un datu zādzības, kā arī aizsargā tavu privātumu tiešsaistē. Aktivizē 2FA, lai paliktu drošībā.</p>
+            <br/>
+            <img src="images/plakats.png" alt="Plakāts"/>
+            <br/><br/>
+            <h3>Izmantotie resursi:</h3>
+            <a href="https://www.microsoft.com/lv-lv/security/business/security-101/what-is-two-factor-authentication-2fa" target="_blank">informācija</a>,
+            <a href="https://www.nic.lv/lv/divfaktoru-autentifikacija" target="_blank">bilde</a>.
+        </section>
+
         <br/>
-        <img src="images/plakats.png" alt="Plakāts"/>
-    </section>
-    
-    <br/>
-    
-    <button onclick="topFunction()" id="backToTop" title="Atgriezties uz augšu">↑</button>
 
-<script>
+        <button onclick="topFunction()" id="backToTop" title="Atgriezties uz augšu">↑</button>
 
-    var mybutton = document.getElementById("backToTop");
+        <script>
 
-    window.onscroll = function() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } 
-        else {
-            mybutton.style.display = "none";
-        }
-};
+            var mybutton = document.getElementById("backToTop");
 
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
-    
-</body>
+            window.onscroll = function () {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            };
 
-<div class="kajene">
-    <p>Anastasija Golubeva 10.e</p>
-</div>
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+    </body>
+
+    <div class="kajene">
+        <p>Anastasija Golubeva 10.e</p>
+    </div>
 
 </html>
